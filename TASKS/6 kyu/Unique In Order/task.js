@@ -1,0 +1,1 @@
+const uniqueInOrder = iterable => [...iterable].filter((i, j) => i !== iterable[j - 1]);
